@@ -52,7 +52,7 @@ Nessa opção depois da execução, o relatório Allure será gerado na pasta re
 ### > Reports com Allure após escolher opção 2 📂
 
 - Ao rodar os testes, relatórios em formato Allure serão gerados na pasta reports e poderão ser visualizados utilizando o comando:   
-  ``allure serve reports``
+  ``npx allure serve``
 
 
 ### > **Observações do BDD ⚠️**
