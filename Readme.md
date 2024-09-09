@@ -83,12 +83,13 @@ No projeto descrevi muitos cenários de sucesso para Busca de Voos e outros arqu
 
 
 
-  Cenários identificados no levantamento do site anteriormente no projeto com ruby + Capybara: 
+ ### > Cenários identificados no levantamento do site anteriormente no projeto com ruby + Capybara: 
 
-Funcionalidade: Busca de Passagens Aéreas
-    Sendo uma pessoa que deseja curtir uma viagem com a familia
-    Quero realizar buscas de passagens para minhas férias
-    Para que possa escolher a melhor opção disponivel  
+**Funcionalidade: Busca de Passagens Aéreas**
+
+  Sendo uma pessoa que deseja curtir uma viagem com a familia
+  Quero realizar buscas de passagens para minhas férias
+  Para que possa escolher a melhor opção disponivel  
 
     @BuscaVoos
     Cenário: Busca de passagens aéreas de ida e volta para 2 Adultos, 1 Criança e 1 Bebê
@@ -160,10 +161,11 @@ Funcionalidade: Busca de Passagens Aéreas
         |  divinopolis   |        21         | 13/11/2024 | 15/12/2024 |                                 |
 
   
-Funcionalidade: Busca de pacotes de viagem
-    Sendo uma pessoa que deseja curtir uma viagem com a familia
-    Quero realizar buscas de pacotes para minhas férias
-    Para que possa escolher a melhor opção disponivel   
+**Funcionalidade: Busca de pacotes de viagem**
+
+  Sendo uma pessoa que deseja curtir uma viagem com a familia
+  Quero realizar buscas de pacotes para minhas férias
+  Para que possa escolher a melhor opção disponivel   
 
     @BuscaHospedagens
     Cenário: Busca de passagens aéreas de ida e volta para 2 Adultos, 1 Criança
@@ -174,13 +176,14 @@ Funcionalidade: Busca de pacotes de viagem
         Então serão exibidos as melhores opções de pacotes
 
 
-Funcionalidade: Busca de hospedagens
+**Funcionalidade: Busca de hospedagens**
+
   Sendo uma pessoa que precisa ir trabalhar em outro estado
   Quero realizar buscas de hospedagens
   Para que possa ficar enquanto desenvolver minhas atividades  
 
-  @BuscaHospedagens
-  Cenário: Busca de passagens aéreas de ida e volta para 2 Adultos, 1 Criança
+    @BuscaHospedagens
+    Cenário: Busca de passagens aéreas de ida e volta para 2 Adultos, 1 Criança
       Dado que acesso o site da zupper
       E clique no menu hospedagens
       Quando inserir origem, destino, numero de hóspedes, idade da criança, data entrada, data de saída e idade 
