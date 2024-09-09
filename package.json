@@ -1,0 +1,17 @@
+{
+  "name": "desafio_zupper_cypress",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Cypress _ desafio Zupper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wesley Bastos",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress": "^12.2.0",
+    "cypress-iframe": "^1.0.1",
+    "http-server": "^14.1.1"
+  }
+}
